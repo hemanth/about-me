@@ -3,11 +3,12 @@
 
 <!--
 A custom element for about me info with social media links.
+
 ##### Example
 
-<about-me me="Hemanth.HM" info="Computer ploygot, web + CLI + FOSS <3'r"
+    <about-me me="Hemanth.HM" info="Computer ploygot, web + CLI + FOSS <3'r"
        gplus="hemanthhm42" twitter="gnumanth" github="hemanth" blog="h3manth.com">
-</about-me>
+    </about-me>
 
 @element about-me
 @blurb A custom element for about me info with social media links.
@@ -33,11 +34,47 @@ A custom element for about me info with social media links.
   <script>
 
       Polymer('about-me', {
+          /**
+          * Your name.
+          *
+          * @attribute me
+          * @type string
+          */
           me : '',
+          /**
+          * About yourself.
+          *
+          * @attribute info
+          * @type string
+          */
           info : '',
+          /**
+          * Your G+ name.
+          *
+          * @attribute gplus
+          * @type string
+          */
           gplus : '',
+          /**
+          * Your twitter handler.
+          *
+          * @attribute twitter
+          * @type string
+          */
           twitter : '',
+          /**
+          * Your github handler.
+          *
+          * @attribute github
+          * @type string
+          */
           github: '',
+          /**
+          * Your website/blog URL.
+          *
+          * @attribute blog
+          * @type string
+          */
           blog: ''
     });
   </script>
