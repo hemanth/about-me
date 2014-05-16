@@ -6,5 +6,3 @@ See the [component page](hemanth.github.io/custom-elements/about-me/) for more i
 __TODO:__
 
 * Accept img attribute.
-
-* Improve :lipstick:
