@@ -1,0 +1,26 @@
+﻿:host {
+  display: block;
+}
+
+* {
+overflow-wrap:hyphenate.
+}
+  
+
+.info {
+	display: table;
+	margin: 0 auto;
+	-moz-box-shadow: 0 0 30px 5px #999;
+	-webkit-box-shadow: 0 0 30px 5px #999;
+  word-break: break-all;
+}
+
+p {
+    hyphens:auto;
+    text-align:justify;
+    -webkit-hyphens:auto;
+    -webkit-hyphenate-character:"\2010";
+    -webkit-hyphenate-limit-after:1;
+    -webkit-hyphenate-limit-before:3;
+    -moz-hyphens:auto;
+}

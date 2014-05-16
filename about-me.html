@@ -1,0 +1,47 @@
+<link rel="import" href="../polymer/polymer.html">
+<link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+
+<!--
+Gets info from IMDB for the given movie name.
+
+##### Example
+
+<about-me me="Hemanth.HM" info="Computer ploygot, web + CLI + FOSS <3'r"
+       gplus="hemanthhm42" twitter="gnumanth" github="hemanth" blog="h3manth.com">
+</about-me>
+
+@element about-me
+@blurb A custom element for about me info with social media links.
+@status stable
+@homepage http://github.com/hemanth/about-me
+info gplus twitter github blog"
+-->
+<polymer-element name="about-me" attributes="me info gplus twitter github blog">
+
+  <template>
+
+    <link href="aboutme.css" rel="stylesheet" />
+    <link href="font-awesome/css/font-awesome.css" rel="stylesheet" />
+      <div class="info">
+        <h1> {{me}}   </h1>
+        <p> {{info}}  </p>
+        <p> <a class="icon-google-plus" href="http://plus.google.com/+{{gplus}}"> G+</a></p>
+        <p> <a class="icon-twitter" href="http://twitter.com/{{twitter}"> Twitter</a> </p>
+        <p> <a class="icon-code-fork" href="http://github.com/{{github}}"> Github</a></p>
+        <p> <a class="icon-bookmark" href="http://{{blog}}"> Blog</a></p>
+      </div>
+  </template>
+
+  <script>
+
+      Polymer('about-me', {
+          me : '',
+          info : '',
+          gplus : '',
+          twitter : '',
+          github: '',
+          blog: ''
+    });
+  </script>
+
+</polymer-element>
