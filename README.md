@@ -1,7 +1,7 @@
 about-me element
 ================
 
-See the [component page](http://hemanth.github.io/custom-elements/about-me/) for more information.
+See the [component page](http://hemanth.github.io/web-components/about-me/index.html) for more information.
 
 __TODO:__
 
