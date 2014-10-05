@@ -9,7 +9,8 @@
     "web-components", 
     "about", 
     "me", 
-    "ploymer",
+    "ploymer"
+  ],
   "main": "index.html",
   "license": "MIT",
   "homepage": "http://h3manth.com/",
