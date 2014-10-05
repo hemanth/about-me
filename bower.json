@@ -5,7 +5,11 @@
     "Hemanth.HM <hemanth.hm@gmail.com>"
   ],
   "description": "Custom Polymer element for displaying info about you!",
-  "keywords": "web-components, about, me, ploymer",
+  "keywords": [
+    "web-components", 
+    "about", 
+    "me", 
+    "ploymer",
   "main": "index.html",
   "license": "MIT",
   "homepage": "http://h3manth.com/",
